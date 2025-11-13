@@ -54,17 +54,17 @@
 </head>
 <body>
     <h1>Contact Card</h1>
+    <form action="/index.html" method="post"></form>
     <p class="button">
         <button type="submit">Send your message</button>
     </p>
-    <form action="/index.html" method="post">
         <p>
             <label for="name">Name:</label>
-            <input type="text" id="name" name="user_name"/>
+            <input type="text" id="name" name="user_name" required/>
         </p>
         <p>
             <label for="mail">Email</label>
-            <input type="email" id="mail" name="user_email"/>
+            <input type="email" id="mail" name="user_email" required/>
         </p>
         <p>
             <label for="msg">Message:</label>
